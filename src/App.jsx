@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div>
-      <video src="/you-died.mp4" id="die-video" className="die-video"></video>
+      <video src="/Game Over Sound Effect.mp3" id="die-video" className="die-video"></video>
       <video
         src="/nether.mp4"
         id="nether-video"
