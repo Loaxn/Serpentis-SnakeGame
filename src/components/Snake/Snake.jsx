@@ -7,22 +7,23 @@ const Snake = ({ data }) => {
   // console.log(data);
 
   const getStyle = (dot, i) => {
-    let background = null;
-
+    let backgroundColor = 'green'; 
+  
     if (data[data.length - 1] === dot) {
-      background = `url('/skin.jpg') 0 0`;
-    } else {
-      background = `url('/skin.jpg') ${10 * i}px 10px`;
+      backgroundColor = 'green'; 
     }
-
+  
     const style = {
       transform: `translate(${dot[0]}px, ${dot[1]}px)`,
-      background: background,
+      backgroundColor: backgroundColor, 
+      width: '10px', 
+      height: '10px', 
+      borderRadius: '30px', 
     };
-
+  
     return style;
   };
-
+  
   return (
     <>
       {data.map((dot, i) => (
