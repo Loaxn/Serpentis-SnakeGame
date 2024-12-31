@@ -27,13 +27,7 @@ function App() {
     <div>
       <video src="/Game Over Sound Effect.mp3" id="die-video" className="die-video"></video>
       <video
-        src="/nether.mp4"
-        id="nether-video"
-        className="nether-video"
-        autoPlay
-        loop
-        muted
-      ></video>
+        src="/nether.mp4" id="nether-video" className="nether-video" autoPlay loop muted ></video>
 
       <div {...getRootProps({ className: "dropzone" })}>
         <input {...getInputProps()} />
