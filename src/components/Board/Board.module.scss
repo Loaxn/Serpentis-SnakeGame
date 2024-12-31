@@ -1,0 +1,52 @@
+.gameplay {
+  // border: solid red;
+  width: 65%;  
+  height: 100vh;  
+  background-image: url('../../assets/background-gameplay.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.board {
+  background-color: #292272;
+  width: 360px;
+  height: 320px;
+  border-radius: 20px;
+  border: solid 2px #7A95D0;
+  position: absolute;
+  top: 0;
+  left: 3%;
+  right: 0;
+  bottom: 5%;
+  margin: auto;
+}
+
+  // .pause {
+  //   position: fixed;
+  //   bottom: 12px;
+  //   left: 12px;
+  //   background-color: white;
+  //   padding: 24px;
+  //   cursor: pointer;
+  // }
+
+  .score {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: white;
+  }
+
+  .death {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    color: white;
+  }
+
